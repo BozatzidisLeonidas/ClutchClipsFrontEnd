@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal, inject} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavComponent } from "./core/nav/nav.component";
 import { AuthModalComponent } from "./user/auth-modal/auth-modal.component";
@@ -11,5 +11,4 @@ import { AuthModalComponent } from "./user/auth-modal/auth-modal.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'clutch-clips';
 }
